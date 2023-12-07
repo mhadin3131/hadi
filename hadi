@@ -153,7 +153,7 @@ sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 CTRL+C را فهید 
 
 ---------------------------------
-قبل از ادامه، با کد زیر مطمئن شوید که به طور کامل با شبکه همگام شده اید 
+قبل از ادامه، با کد زیر مطمئن شوید که شبکه همگام شده اید 
 
 curl -s localhost:26657/status | grep block_height
 ------------------------------------------------
