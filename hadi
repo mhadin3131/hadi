@@ -144,7 +144,6 @@ wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar xf - \
     -C ~/.celestia-app/data/
 
 ------------------------------------------------------------------
-منتظر بمانید تا گره شنجیره Celestia دانلود کند
 
 --------------------------------------------------
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
