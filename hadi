@@ -155,7 +155,6 @@ CTRL+C را فهید
 
 curl -s localhost:26657/status | grep block_height
 ------------------------------------------------
-باید منتظر بمانید تا گره Validator
 
 -----------------------------------
 CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a) 
