@@ -135,7 +135,6 @@ CTRL+C
 
 curl -s localhost:26657/status | grep block_height
 ------------------------------------------------
-
 -----------------------------------
 CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a) 
 echo $CELESTIA_ADDR 
